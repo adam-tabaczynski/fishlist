@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-reintroduction"
+version = "0.1.0"
+description = ""
+authors = ["Adam Tabaczyński <adam.tabaczynski@bitapps.fi>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.2"
+isort = "^5.13.2"
+black = "^24.2.0"
+psycopg2 = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
