@@ -1,0 +1,7 @@
+services:
+  local_development_database:
+    image: postgres:15.6
+    ports:
+      - 5448:5432
+    env_file:
+      - database.env
