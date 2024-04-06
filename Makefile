@@ -3,3 +3,6 @@ SHELL := /bin/bash
 
 run-app:
 	 python ./fishlist/manage.py runserver
+
+run-shell:
+	python ./fishlist/manage.py shell
